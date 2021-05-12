@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Apresentacao.Model
 {
-    public class MeuDbContext : DbContext
+    public class ApresentacaoDbContext : DbContext
     {
-        public MeuDbContext(DbContextOptions<MeuDbContext> options) : base(options) { }
-        public DbSet<Cliente> Clientes { get; set; }
+        public ApresentacaoDbContext(DbContextOptions<ApresentacaoDbContext> options) : base(options) { }   
     }
 }
